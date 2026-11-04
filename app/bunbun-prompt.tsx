@@ -41,6 +41,11 @@ export function BunbunPrompt() {
           height={58}
           className="speech-bubble"
         />
+        <span className="speech-bubble-copy" aria-hidden="true">
+          hi! ask me
+          <br />
+          anything
+        </span>
       </button>
 
       <form className="bunbun-form" onSubmit={handleSubmit}>
